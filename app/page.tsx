@@ -155,7 +155,7 @@ export default function Page() {
           </h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {GALLERY.slice(0, 9).map((p, i) => (
+          {GALLERY.slice(0, 20).map((p, i) => (
             <div key={i} className="aspect-square bg-cover bg-center transition-transform duration-500 hover:scale-[1.03]" style={{ backgroundImage: `url("${p}")`, borderRadius: "20px", boxShadow: `0 8px 20px ${BROWN_DEEP}22` }} />
           ))}
         </div>
