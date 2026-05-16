@@ -1,47 +1,100 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "New Buenos Aires Bakery & Cafe",
+  "tagline": "Argentine pastries, breads, and empanadas — baked fresh in Burbank.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "From Buenos Aires, with love.",
+    "subheading": "Hand-rolled empanadas, dulce de leche pastries, and crusty French breads — baked fresh every morning in Burbank since the family opened the doors.",
+    "ctaText": "Call to Order",
+    "ctaLink": "tel:8188617500",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPWKZm5G6uyBMpjpXY_jCNz72Xkq0UHzsZ0qpW9=w1920-h1080-k-no"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "220 reviews. 4.5 stars. A pinch of Argentina on Verdugo Ave.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "We bake the way our abuela taught us — slow rises, butter that smells like butter, and pastries you'd find on a Sunday morning in Recoleta.",
+      "Stop in for an empanada and a café cortado, grab a loaf for the table, or order a tray of medialunas for the office. We're open six days, and the line moves fast."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Empanadas",
+      "description": "Beef, chicken, ham & cheese, spinach, and more. Hand-folded, baked to order.",
+      "price": "From $3.50 ea"
+    },
+    {
+      "title": "Argentine Pastries",
+      "description": "Medialunas, alfajores, vigilantes, and pastel de hojaldre con dulce de leche.",
+      "price": "From $2.50"
+    },
+    {
+      "title": "Fresh Breads",
+      "description": "French baguettes, pan miga, brioche, and rustic country loaves — baked every morning.",
+      "price": "From $4"
+    },
+    {
+      "title": "Sandwiches",
+      "description": "Argentine-style chivito, jamón y queso on our own bread, and weekday specials.",
+      "price": "From $9"
+    },
+    {
+      "title": "Espresso Bar",
+      "description": "Espresso, café con leche, submarinos. Real Argentine café service.",
+      "price": "From $3.50"
+    },
+    {
+      "title": "Catering Trays",
+      "description": "Empanada trays, pastry platters, and bread baskets for offices and parties.",
+      "price": "Inquire"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Ana C.",
+      "text": "These empanadas are the real deal. Reminds me of home in Buenos Aires. The medialunas alone are worth the drive.",
+      "rating": 5
+    },
+    {
+      "name": "Roberto S.",
+      "text": "Family-run, fresh every day, and the dulce de leche pastries are unbelievable. The owner remembers everyone.",
+      "rating": 5
+    },
+    {
+      "name": "Erin H.",
+      "text": "I drive across town for the bread. The chivito sandwich is also worth it. Hidden gem of Burbank.",
+      "rating": 4
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 861-7500",
+    "email": "hola@newbuenosairesbakery.com",
+    "address": "1723 W Verdugo Ave, Burbank, CA",
+    "mapEmbedQuery": "New Buenos Aires Bakery & Cafe, 1723 W Verdugo Ave, Burbank, CA",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "9 AM – 5 PM",
+      "Tuesday": "9 AM – 5 PM",
+      "Wednesday": "9 AM – 5 PM",
+      "Thursday": "9 AM – 5 PM",
+      "Friday": "9 AM – 5 PM",
+      "Saturday": "9 AM – 5 PM",
       "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    }
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "New Buenos Aires Bakery & Cafe — Argentine Bakery in Burbank, CA",
+    "description": "Hand-folded empanadas, dulce de leche pastries, fresh breads, and espresso in Burbank. Open Monday–Saturday. Catering available.",
+    "keywords": [
+      "argentine bakery burbank",
+      "empanadas burbank",
+      "dulce de leche burbank",
+      "buenos aires bakery",
+      "argentine cafe burbank",
+      "fresh bread burbank"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
-  }
+    "primaryColor": "#B45D55",
+    "accentColor": "#3D2620",
+    "fontFamily": "playfair"
+  },
+  "social": {}
 }
