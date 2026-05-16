@@ -14,6 +14,9 @@ const CREAM_DARK = "#F0E5D2";
 const RUST = "#C5523B";
 const HONEY = "#E8A04F";
 
+
+const GALLERY = ["https://lh3.googleusercontent.com/p/AF1QipPWKZm5G6uyBMpjpXY_jCNz72Xkq0UHzsZ0qpW9=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHdzTBhoppzjdksGK6DiyOs_e-K7tCxXzXbZjnLBPJgB3gU2dE1tjjVl8kBiPy9yZSz8E2YUN5TqS0mw0yEUU3iIrpYn860UkAmYKwOTixb_c_fKDXInIAb8cobu6UNRgY-ghYZ=w1920-h1080-k-no","https://lh3.googleusercontent.com/p/AF1QipOYGSDPZm4VhyNLjWxfZnCCI5R3t6Xbso_0OfBr=w1920-h1080-k-no","https://lh3.googleusercontent.com/p/AF1QipOewDn7-k45ggMFgJsYqhM5gR1rSYdZndzbot34=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHpmOI6EJD9m2KyqKx_4hxCumkZkKO-Z93MYJM5CsxFceJhDSiBjliKosT4uWWbpqfrizZmGxsNQOt7Vz8ZkTR-Ik9AZxJz1SEW5uKOG9tZKjUgUHMEV-U7HQjqTRtLLc7riyU=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRonne6_im_AGC29tCP0VBHeO67MugjEQ5-AypUlLrFQLPNLdHYC8fbBYln6AvxU8EGmlzsiqvXr8vOyAW8jrYqv4rSdFzIJJ02r6aLAqLDIiqnO1v972TZdqIrI7A4I2ul8Py=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBfSGxHmLYiX-gr13FK0hXqeC4v2PXJaQpwvLhlVI8jFBf6BRG_xiiSGYAcaw0CSK8mPx_Sohnuq9Q1kyICDNKfG0_OIUR6U7isT9ETOqJl1xl0Fvpgdg_LZs_XQYEqnfTzhtv=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHyl7eMqyGogUzqiUotXFlSVfAqmHogXAAfeXc2qpW2NWrsrg0Wy4CW12lk_4OZNhiKYd6tmHqVqGRrD4I6LJqueSn3qk4_Ng19MUQhQTB5TZLnagFDE6mb8f6OHyNAZpQKxc=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEOE6P7pxUDcsKetXtCvjwViUHQNZcdxiQ6l-HN9ljke7KHIidwqu4gMl3NAX8JwZmrZzlo7yXyC0_ceEADBSDnYku7d2gF8FHZ2OOyXM93PRP4iGZwx30oOdP1IT8rahaz0pQSJw=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt750vRF9skueR1nADdPbMjULez4fVGRKmSpoTy_X_vsFMo0X46gau0p4ZvBiAD_zT9PTxFRDB7_Pd9MyxvkKb93N26Ksnl_yCVVMYPV6_GxaFfWwnKjc-i8LPbytLWiRRUV_UXV6c8g37=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwNPL3k79yv8kS6t-wn8SMdfcOzzejJ9fQr-ZPIf4piomA2LObEO_jqr5GJyEJ-8dPf9et4hloKXXo5KXAqER4ejY3W9zp0V_VI1dFolvub6vyOT7nZSp6B2qWo-E1Q0p_GzlPGqwcL2E=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFJvRT6QR33QtRPZjx9mFsrX4X-Gi8RQqy_vOfzry_C_pRSWm5g3pJ1dKy7u_Cip23nts85dYs5eMPKUijbXL150rWlWxa-xoqtqDTGlIiF_HfgW8Rb7u1YFiVWMU3_BcILZNI=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHgYRMhc45Yi3DVd4c4j6RWfLS5nuqXvHgguJDDYqeZkN2EhLbUntmm4upaQmwsQngA-K5Adr14EpAcsgK-8yjntQO2ra7bKFMCbIUtpJKaN8tSN_0zR2Td_b_6QwPl78VJ43ITDKpcgjfU=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgE9Lvh8aYmVzksBkTTraWxddJ5DRHrkv1yfvMt-gAlHSjqVOSgfVLolIlCVZPEONgZuUjO7TUj2eKHNW-FhnPssxeaqgfIB5ITUoaQ24UAPZQ4ytUvQSlgYHQMnPOWIPsj49xvQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEvdZZPReiE_xPvMqxNP9jnmzck1SmWMCRXWdt9K5C9Y63vqeymjP38_cShBnhUDBa0uiWIIjePR5G0lttgCTdCb6oZeeFhgb_D__9Xu2fkuFrMsGPisn5U-ThhwjX8LjwS5fHH=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAExBgMy14l4yFmLyOGuyV2W35QUhFVkx-ZjTYsRQn_1X9HjieE4Y5LCjm-ioh2dcw1ArIyEsT1_ce3-f7eZP5FSVkkAT7UOE4o_R6e2_ixG46ju6NEe5fow9kWzoUpzry7GXQTt=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEooOqpFNnfAEZUUvEbjDtK-D5MUylzegStwrGrI-MQKkoJ-M2A69SjEPDffkMYOeDtS0V8Udy-UdzJz3sAmBZD1r1lEj-tuWAm5R72dq0A9V9L4fxHCGJK4R8Q1U_x7a0DAch_=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDmAYedNLfUlSeCUifnV84EtJWo8WglMaEbI1ZQ_XSIri24_wQ4MK2wwDbpjRdpplE9xeJnSq_PvPbQfAT0GIivtTI7qk2ypMIf9bOvw0M3S2aA5zbJWNYQYWMTL4K1f70kd7y=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5s9EKJcnKcJQYEQH8rphMtkwHkpUvocCHn1XrNt3sZDIPTA8P2DEzjDLgKsTT6EA4YZrWmad_-n1JU-K_Jl31LVr9EVmkrq5lFXF5dEkM3Yt3MroXzJPUKfNxLAQQcrNnuHJE=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwFMn3ESaTY0oibd3QW7SZauVGamTptC-Ma4TLHv4GYIk0CQc0-XF682xJ5j8Qf2a1i-uB51zw18nExAyYuvdgKk8g4G96IDA4yNeBjBMXmv9wmJjmB_EsE64hQMYXY36f5kF5=w1920-h1080-k-no"];
+
 export default function Page() {
   const phoneTel = "tel:" + content.contact.phone.replace(/[^0-9]/g, "");
   const mapUrl = "https://maps.google.com/maps?output=embed&q=" + encodeURIComponent(content.contact.mapEmbedQuery);
@@ -139,6 +142,21 @@ export default function Page() {
                 <p className="text-sm font-extrabold uppercase tracking-widest" style={{ color: HONEY }}>{r.name}</p>
               </div>
             </div>
+          ))}
+        </div>
+      </section>
+
+      {/* GALLERY — warm bakery grid */}
+      <section className="max-w-[1400px] mx-auto px-6 md:px-10 py-24 md:py-32">
+        <div className="mb-14">
+          <p className="text-xs font-bold uppercase tracking-[0.4em] mb-5" style={{ color: RUST }}>De La Panadería</p>
+          <h2 style={{ fontSize: "clamp(2.5rem, 6vw, 4.5rem)", fontWeight: 900, color: BROWN_DEEP, lineHeight: 0.95, letterSpacing: "-0.03em" }}>
+            Fresh from <span style={{ color: RUST }}>the oven.</span>
+          </h2>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {GALLERY.slice(0, 9).map((p, i) => (
+            <div key={i} className="aspect-square bg-cover bg-center transition-transform duration-500 hover:scale-[1.03]" style={{ backgroundImage: `url("${p}")`, borderRadius: "20px", boxShadow: `0 8px 20px ${BROWN_DEEP}22` }} />
           ))}
         </div>
       </section>
